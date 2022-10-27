@@ -1,6 +1,159 @@
-.sign-in_ctn{
-  background:url('https://github.com/sifuna2002/sign-in-ui/blob/main/bg.jpg?raw=true');
-  background-size:cover;
-  background-repeat:no-repeat;
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+.foot{
+  color:rgba(255,255,255,.5);
+  text-align: center;
+  padding-bottom:5px;
+}
+.end{
+  text-align:center;
+}
+.text-gmail2{
+  position: relative;
+  left:-30px;
+}
+.sign-fb{
+  margin-left:20%;
+}
+.text-gmail{
+ position:relative;
+  left:-48px;
+}
+.gmail-icon{
+ width:30%;
+}
+.sign-gmail{
+  display:flex;
+  justify-content: center;
+  border-radius:5px;
+  background-color:#2b4865;
+  width:40%;
+  padding-top:10px ;
+  color:white;
+  vertical-align: middle;
+  
+}
+.fb-icon{
+  width:15%;
+}
+.gmimg{
+  width:30%;
+}
+.btn{
+  border-radius:5px;
+  background-color:#2fa4ff;
+  padding:10px 25px 10px 25px;
+  letter-spacing:2px;
+  position:relative;
+  left:65px;
+}
+.row1{
+  display:flex;
+}
+.keepsign{
+ display:inline-block;
+  margin-bottom:10px;
+  position:relative;
+  top:-15px;
+
+}
+.column{
+  width:40%;
+  border-bottom:2.5px solid #2b4865;
+}
+.column1{
+  margin-right:15%;
+}
+/* .column2{
+  width:40%;
+} */
+.tik-login_icon{
+  width:30%;
+}
+.para{
+  width:50%;
+}
+.keep{
+  width:20%;
+}.image2{
+  width:15%;
+}
+.row,.row1{
+    padding-bottom: 5px;
+  padding-top:25px;
+}
+.email-img{
+  width:25%;
+  border-radius:50%;
+}
+.email-icon{
+  width:20%;
+}
+.text{
+  width:70%;
+  margin-left:-40px;
+}
+.row1{
+  display:flex;
+}
+.see{
+  width:5%;
+}
+.tick{
+  width:10%;
+  display: flex;
+  flex:end;
+}
+.image{
+  width:20%;
+}
+.row{
+  border-bottom:1.5px solid #fff;
+  display:flex;
+}
+.margin-tp{
+  margin-top:7px;
+  display:inline-block;
+}
+.head1{
+  font-weight: 900;
+  font-size:14px;
+  display:inline-block;
+  border-bottom: .5px solid #2fa4ff;
+  padding-bottom: 2px;
 }
 
+.white{
+  color:white;
+  opacity:1;
+}
+img{
+  max-width:100%;
+}
+.sign-in_ctn{
+  /*gin:20px 50px 25px 50px;*/
+  border-radius:5px;
+  padding-top: 1opx;
+  padding-bottom:5px;
+  padding-left:37px;
+  padding-right:25px;
+  background-color: rgba(0,0,0,.2);
+  color:rgba(255,255,255,.5);
+  }
+.ctn{
+  background-image:url("./bg.jpg");
+  background-size:cover;
+  padding-left:150px;
+  padding-right:50px;
+  background-repeat:no-repeat;
+ padding-top:20px;
+    font-size:14px;
+}
+
+input{
+  border-color:none;
+}
